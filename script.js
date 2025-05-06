@@ -43,7 +43,7 @@ const questions = [
   
   // Final proposal question
   function showFinalScreen() {
-    questionEl.textContent = "Will you go out with me? 💖";
+    questionEl.textContent = "Will you go out with me?(nothing much we could talk and play online games and stuff) 💖";
     optionsEl.innerHTML = "";
     nextBtn.style.display = "none";
   
@@ -60,7 +60,7 @@ const questions = [
     noBtn.textContent = "sorry";
     noBtn.onclick = () => {
       sendResponse("sorry");
-      questionEl.textContent = "Aww... okay 😢 I still think you're amazing 💌";
+      questionEl.textContent = "Aww... okay 😢 i hope we can still be friends 💌";
       optionsEl.innerHTML = "";
     };
   
